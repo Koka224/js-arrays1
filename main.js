@@ -43,7 +43,11 @@
 // let b = `${a[0]}+${a[1]}, ${a[2]}+${a[3]}`;
 // console.log(b);
 // 8) Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый элементы [1, 2, 3].
-const slArr = [1, 2, 3, 4, 5];
-let slArr2 = slArr.slice(0, 3);
+// const slArr = [1, 2, 3, 4, 5];
+// let slArr2 = slArr.slice(0, 3);
 
-console.log(slArr2);
+// console.log(slArr2);
+// 9) Дан массив [1, 2, 3, 4, 5]. С помощью метода splice преобразуйте массив в [1, 4, 5].
+const srArr = [1, 2, 3, 4, 5];
+srArr.splice(1, 2);
+console.log(srArr);
