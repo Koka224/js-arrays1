@@ -52,8 +52,14 @@
 // srArr.splice(1, 2);
 // console.log(srArr);
 // 10) Дан массив [1, 2, 3, 4, 5]. С помощью метода splice сделайте из него массив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
-const spArr = [1, 2, 3, 4, 5];
-spArr.splice(1, 0, "a", "b");
-spArr.splice(6, 0, "c");
-spArr.splice(8, 0, "e");
-console.log(spArr);
+// const spArr = [1, 2, 3, 4, 5];
+// spArr.splice(1, 0, "a", "b");
+// spArr.splice(6, 0, "c");
+// spArr.splice(8, 0, "e");
+// console.log(spArr);
+// 11) Дан массив ['js', 'css', 'jq']. Выведите на экран первый элемент и отдельно последний элемент. Используйте shift, pop
+const jArr = ["js", "css", "jq"];
+const gArr = jArr.shift();
+const hArr = jArr.pop();
+
+console.log(gArr, hArr);
