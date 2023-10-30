@@ -48,6 +48,12 @@
 
 // console.log(slArr2);
 // 9) Дан массив [1, 2, 3, 4, 5]. С помощью метода splice преобразуйте массив в [1, 4, 5].
-const srArr = [1, 2, 3, 4, 5];
-srArr.splice(1, 2);
-console.log(srArr);
+// const srArr = [1, 2, 3, 4, 5];
+// srArr.splice(1, 2);
+// console.log(srArr);
+// 10) Дан массив [1, 2, 3, 4, 5]. С помощью метода splice сделайте из него массив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
+const spArr = [1, 2, 3, 4, 5];
+spArr.splice(1, 0, "a", "b");
+spArr.splice(6, 0, "c");
+spArr.splice(8, 0, "e");
+console.log(spArr);
