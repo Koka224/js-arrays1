@@ -25,6 +25,11 @@
 // }
 // 4) Дан массив с элементами ['Привет, ', 'мир', '!']. Необходимо записать в переменную text фразу 'Привет, мир!',
 // а затем вывести на экран содержимое этой переменной.
-const HelloArr = ["Привет, ", "мир", "!"];
-let text = `${HelloArr[0]}${HelloArr[1]} ${HelloArr[2]}`;
-console.log(text);
+// const HelloArr = ["Привет, ", "мир", "!"];
+// let text = `${HelloArr[0]}${HelloArr[1]} ${HelloArr[2]}`;
+// console.log(text);
+// 5) Даны два массива: ['a', 'b', 'c'] и [1, 2, 3]. Объедините их вместе.
+const a = ["a", "b", "c"];
+const b = [1, 2, 3];
+const c = a + "," + b;
+console.log(c);
